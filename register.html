@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+</head>
+<body>
+	//not an html comment
+	<!-- actual comment -->
+	<!-- Use GET, not post -->
+	<form method="GET">
+		First Name: <input type="text" required name="firstname"><br>
+		Last Name: <input type="text" required name="lastname"><br>
+		Email: <input type="email" required name="email"><br>
+		Password: <input type="password" name="password" min="5"><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender:<br> 
+			<input type="radio" name="gender" value="Male">Male<br>
+			<input type="radio" name="gender" value="Female">Female<br>
+			<input type="radio" name="gender" value="Other">Other<br>
+		Pets: <br>
+			<input type="checkbox" name="pets" value="Cats"> Cats<br>
+			<input type="checkbox" name="pets" value="Dogs"> Dogs<br>
+		Cars:
+			<select name="cars">
+				<option value="Volvo" name="cars">Volvo</option>
+				<option value="Audi" name="cars">Audi</option>
+			</select><br>
+		<input type="submit" value="Register">
+		<input type="reset">
+	</form>
+	<a href="index.html">
+			<h3>Go back</h3>
+		</a>
+</body>
+</html>

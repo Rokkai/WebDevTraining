@@ -1,0 +1,52 @@
+/*selector {
+	property: value;
+}*/
+
+* { 
+	text-align: right;
+}
+
+body{
+	background-image: url(images/UnsplashGoldenGate.jpg);
+	background-size: cover;
+
+}
+h2, p {
+	color:  #AA4139;
+	text-align: center;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+	font-family: 'Aboreto';
+	/*text-transform: capitalize;*/
+	
+}
+p {
+	color:  pink;
+}
+p:hover {
+	color:  green;
+}
+
+img{
+	float: left;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border:  5px dashed blue;
+}
+
+.active {
+	color: red;
+}
+
+#div1{
+	background: rgba(0,0,255,0.2);
+}
+#div2{
+	background: rgba(255,0,0,0.2);
+}
