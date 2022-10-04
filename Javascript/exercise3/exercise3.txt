@@ -7,3 +7,32 @@
 
 
 // BONUS: Make a program that can subtract, multiply, and also divide!
+
+
+var firstNum;
+var secondNum;
+var addNum;
+var subNum;
+var divNum;
+var mulNum;
+var userPrompt = prompt("Choose a an execution: +,-,/,*")
+if (userPrompt == "+")
+{
+    var addNum = Number(prompt("Enter the first number", firstNum)) + Number(prompt("Enter the second number", secondNum));
+    alert("The Sum is " + addNum);
+}
+else if (userPrompt == "-")
+{
+    subNum = Number(prompt("Enter the first number", firstNum)) - Number(prompt("Enter the second number", secondNum));
+    alert("The result is " + subNum);
+}
+else if (userPrompt == "-/")
+{
+    divNum = Number(prompt("Enter the first number", firstNum)) / Number(prompt("Enter the second number", secondNum));
+    alert("The result is " + divNum);
+}
+else if (userPrompt == "*")
+{
+    mulNum = Number(prompt("Enter the first number", firstNum)) * Number(prompt("Enter the second number", secondNum));
+    alert("The result is " + mulNum);
+}
