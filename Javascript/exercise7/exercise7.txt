@@ -2,7 +2,54 @@
 
 // 1. Create an object that has properties "username" and "password". Fill those values in with strings.
 
+var fbUser =
+{
+    username: "user1",
+    password: "pass1"
+};
+
 
 // 2. Create an array which contains the object you have made above and name the array "database".
 
+    var database = [ fbUser ];
+
 // 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
+
+var userObj1 =
+{
+    username: "user1",
+    timeline: "time1"
+};
+
+var userObj2 =
+{
+    username: "user2",
+    timeline: "time2"
+};
+
+var userObj3 =
+{
+    username: "user3",
+    timeline: "time3"
+};
+
+
+var newsfeed = [ userObj1, userObj2, userObj3];
+
+// alternatively
+
+var newsfeed =
+[
+    {
+        username: "user1",
+        timeline: "time1"
+    },
+    {
+        username: "user2",
+        timeline: "time2"
+    },
+    {
+        username: "user3",
+        timeline: "time3"
+    },
+]
