@@ -1,6 +1,7 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
+/*var deleteButton = document.getElementbyId("delete");*/
 
 function inputLength()
 {
@@ -15,17 +16,26 @@ function createListElement()
 		input.value = "";
 };
 
-function doneToggle()
+/*function deleteListElement()
 {
-	if (li.done === true)	
-	{
-		li.done === false
-	}
-	else if (li.done === false)
-	{
-		li.done === true
-	};
-};
+	var li = document.deleteElement("li")
+		li.removeChild(document.
+		ul.appendChild(li);	
+		input.value = "";	
+}
+*/
+
+// function doneToggle()
+// {
+// 	if (li.done === true)	
+// 	{
+// 		li.done === false
+// 	}
+// 	else if (li.done === false)
+// 	{
+// 		li.done === true
+// 	};
+// };
 
 var addListItem = function(event)
 {
